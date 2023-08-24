@@ -21,6 +21,9 @@ class ViewController: UIViewController {
 
     @objc  func onOpen(){
         NSLog("onOpen")
+        let loginController:LoginController=LoginController()
+        self.navigationController?.pushViewController(loginController, animated: true)
+        
     }
 
 }

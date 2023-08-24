@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2303568D2A976A8300BC327F /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2303568C2A976A8300BC327F /* SplashController.swift */; };
+		23DF9E892A9754B500455209 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DF9E882A9754B500455209 /* LoginController.swift */; };
 		23E52B5C2A97003D00B17F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E52B5B2A97003D00B17F82 /* AppDelegate.swift */; };
-		23E52B5E2A97003D00B17F82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E52B5D2A97003D00B17F82 /* SceneDelegate.swift */; };
 		23E52B602A97003D00B17F82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E52B5F2A97003D00B17F82 /* ViewController.swift */; };
 		23E52B632A97003D00B17F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E52B612A97003D00B17F82 /* Main.storyboard */; };
 		23E52B652A97003D00B17F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E52B642A97003D00B17F82 /* Assets.xcassets */; };
@@ -41,9 +42,10 @@
 /* Begin PBXFileReference section */
 		085A402AC49F66F1880BF58C /* Pods-OKSwiftDemo-OKSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKSwiftDemo-OKSwiftDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-OKSwiftDemo-OKSwiftDemoUITests/Pods-OKSwiftDemo-OKSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		19E21500C81D80110B09D7BA /* Pods_OKSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2303568C2A976A8300BC327F /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		23DF9E882A9754B500455209 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		23E52B582A97003D00B17F82 /* OKSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OKSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E52B5B2A97003D00B17F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23E52B5D2A97003D00B17F82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		23E52B5F2A97003D00B17F82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23E52B622A97003D00B17F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23E52B642A97003D00B17F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,8 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				23E52B5B2A97003D00B17F82 /* AppDelegate.swift */,
-				23E52B5D2A97003D00B17F82 /* SceneDelegate.swift */,
 				23E52B5F2A97003D00B17F82 /* ViewController.swift */,
+				23DF9E882A9754B500455209 /* LoginController.swift */,
+				2303568C2A976A8300BC327F /* SplashController.swift */,
 				23E52B612A97003D00B17F82 /* Main.storyboard */,
 				23E52B642A97003D00B17F82 /* Assets.xcassets */,
 				23E52B662A97003D00B17F82 /* LaunchScreen.storyboard */,
@@ -407,8 +410,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E52B602A97003D00B17F82 /* ViewController.swift in Sources */,
+				23DF9E892A9754B500455209 /* LoginController.swift in Sources */,
 				23E52B5C2A97003D00B17F82 /* AppDelegate.swift in Sources */,
-				23E52B5E2A97003D00B17F82 /* SceneDelegate.swift in Sources */,
+				2303568D2A976A8300BC327F /* SplashController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
