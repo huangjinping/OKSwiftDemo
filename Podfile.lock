@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - FBAEMKit (16.1.0):
+    - FBSDKCoreKit_Basics (= 16.1.0)
+  - FBSDKCoreKit (16.1.0):
+    - FBAEMKit (= 16.1.0)
+    - FBSDKCoreKit_Basics (= 16.1.0)
+  - FBSDKCoreKit_Basics (16.1.0)
+  - FBSDKLoginKit (16.1.0):
+    - FBSDKCoreKit (= 16.1.0)
+  - FBSDKShareKit (16.1.0):
+    - FBSDKCoreKit (= 16.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - FBSDKShareKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  FBAEMKit: c7efe06720a8b15b1d25b68921ba46dee20996e0
+  FBSDKCoreKit: ca77d40d46786157b7b31ad3516f5ad9c2315339
+  FBSDKCoreKit_Basics: d39c3361379def7297bf76738cdd4fd2e0eb1a68
+  FBSDKLoginKit: 8fa1a0e3be1c9e8ae6df522844235a05cb03d835
+  FBSDKShareKit: 6dc40042ed436cd3469f975957062be3fc721dea
+
+PODFILE CHECKSUM: 366e0647f26eb586e9f7b9a70da7ad031e257d6c
+
+COCOAPODS: 1.11.3
