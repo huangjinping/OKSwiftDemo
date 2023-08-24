@@ -14,40 +14,25 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - FBAEMKit (16.1.0):
-    - FBSDKCoreKit_Basics (= 16.1.0)
-  - FBSDKCoreKit (16.1.0):
-    - FBAEMKit (= 16.1.0)
-    - FBSDKCoreKit_Basics (= 16.1.0)
-  - FBSDKCoreKit_Basics (16.1.0)
-  - FBSDKLoginKit (16.1.0):
-    - FBSDKCoreKit (= 16.1.0)
-  - FBSDKShareKit (16.1.0):
-    - FBSDKCoreKit (= 16.1.0)
+  - ReactiveCocoa (12.0.0):
+    - ReactiveSwift (~> 7.0)
+  - ReactiveSwift (7.1.1)
 
 DEPENDENCIES:
   - AFNetworking
-  - FBSDKCoreKit
-  - FBSDKLoginKit
-  - FBSDKShareKit
+  - ReactiveCocoa
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-    - FBAEMKit
-    - FBSDKCoreKit
-    - FBSDKCoreKit_Basics
-    - FBSDKLoginKit
-    - FBSDKShareKit
+    - ReactiveCocoa
+    - ReactiveSwift
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  FBAEMKit: c7efe06720a8b15b1d25b68921ba46dee20996e0
-  FBSDKCoreKit: ca77d40d46786157b7b31ad3516f5ad9c2315339
-  FBSDKCoreKit_Basics: d39c3361379def7297bf76738cdd4fd2e0eb1a68
-  FBSDKLoginKit: 8fa1a0e3be1c9e8ae6df522844235a05cb03d835
-  FBSDKShareKit: 6dc40042ed436cd3469f975957062be3fc721dea
+  ReactiveCocoa: 5d10386f0ce09f922006efbf784881c5fade27c5
+  ReactiveSwift: 477d3f5bc2eb3cbbba1c1636505752b83bef93b1
 
-PODFILE CHECKSUM: 366e0647f26eb586e9f7b9a70da7ad031e257d6c
+PODFILE CHECKSUM: fda54bf49f9212496b7b0b66d641561b84b34191
 
 COCOAPODS: 1.11.3

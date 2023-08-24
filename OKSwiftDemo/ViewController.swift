@@ -6,14 +6,22 @@
 //
 
 import UIKit
-import AFNetworking
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let teachename="添加详情"
+        NSLog("okhttp %@",teachename)
+        let  button:UIButton=UIButton(frame: CGRectMake(100, 100, 100, 100))
+        button.backgroundColor=UIColor.gray
+        button.setTitle("催收", for: UIControl.State.normal)
+        button.addTarget(self, action: #selector(self.onOpen), for: UIControl.Event.touchUpInside)
+        self.view.addSubview(button)
     }
 
+    @objc  func onOpen(){
+        NSLog("onOpen")
+    }
 
 }
 
