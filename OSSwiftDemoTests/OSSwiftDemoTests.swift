@@ -1,14 +1,14 @@
 //
-//  OKSwiftDemoTests.swift
-//  OKSwiftDemoTests
+//  OSSwiftDemoTests.swift
+//  OSSwiftDemoTests
 //
-//  Created by 胡慧杰 on 2023/8/24.
+//  Created by 胡慧杰 on 2024/12/31.
 //
 
 import XCTest
-@testable import OKSwiftDemo
+@testable import OSSwiftDemo
 
-final class OKSwiftDemoTests: XCTestCase {
+final class OSSwiftDemoTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

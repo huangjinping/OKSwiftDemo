@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>需要读取你的相册</string>
+	<key>NSContactsUsageDescription</key>
+	<string>我们需要访问您的通讯录以提供更好的服务</string>
+</dict>
+</plist>

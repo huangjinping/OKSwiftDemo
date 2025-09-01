@@ -1,13 +1,13 @@
 //
-//  OKSwiftDemoUITestsLaunchTests.swift
-//  OKSwiftDemoUITests
+//  OSSwiftDemoUITestsLaunchTests.swift
+//  OSSwiftDemoUITests
 //
-//  Created by 胡慧杰 on 2023/8/24.
+//  Created by 胡慧杰 on 2024/12/31.
 //
 
 import XCTest
 
-final class OKSwiftDemoUITestsLaunchTests: XCTestCase {
+final class OSSwiftDemoUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -14,25 +14,57 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - Alamofire (5.10.2)
   - ReactiveCocoa (12.0.0):
     - ReactiveSwift (~> 7.0)
-  - ReactiveSwift (7.1.1)
+  - ReactiveSwift (7.2.0)
+  - RxCocoa (6.8.0):
+    - RxRelay (= 6.8.0)
+    - RxSwift (= 6.8.0)
+  - RxRelay (6.8.0):
+    - RxSwift (= 6.8.0)
+  - RxSwift (6.8.0)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - SnapKit (5.7.1)
+  - Toaster (2.3.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - Alamofire
   - ReactiveCocoa
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - SnapKit
+  - Toaster
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - Alamofire
     - ReactiveCocoa
     - ReactiveSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SnapKit
+    - Toaster
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  Alamofire: fb134689af05d68066f7a9e353e3fb29bbdac23a
   ReactiveCocoa: 5d10386f0ce09f922006efbf784881c5fade27c5
-  ReactiveSwift: 477d3f5bc2eb3cbbba1c1636505752b83bef93b1
+  ReactiveSwift: be62d3c1e4d5f461066a4287d2ade6a30b98a456
+  RxCocoa: 03309d076e9a3438b2c8360dfc5b38c7ee672d9b
+  RxRelay: c902c86940044af6351a7ba693ea646c3f74e8d8
+  RxSwift: 816bbe03a5ef09b061a7e3961620f96cb68ed5d1
+  SDWebImage: 2432a7436ce3fd198e5e33114c0686b2a06009bc
+  SnapKit: a27578ca1c733c0c0bdeefe7686564d1ffaf6aa8
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
 
-PODFILE CHECKSUM: fda54bf49f9212496b7b0b66d641561b84b34191
+PODFILE CHECKSUM: 48dda77995bc636a809480eb7173c73b8aa097e5
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.16.2
